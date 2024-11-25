@@ -2,77 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Learn about the benefits of meditation and yoga, and discover basic poses and techniques to get started.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Learn about the benefits of meditation and yoga, and discover basic poses and techniques to get started.">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Title -->
+  <title>Serenity</title>
 
-    <title>Jain Serenity(Meditation & Yoga)</title>
-    <link rel="stylesheet" href="assest/css/style.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assest/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1 <i class="fa-solid fa-om"></i>Serenity</h1>
-        <h2>Meditation & Yoga</h2>
-        <nav>
-            <ul>
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#yoga-poses">Yoga Poses</a></li>
-                <li><a href="#meditation">Meditation</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header>
+    <a href="index.html">
+      <h1>Welcome to Serenity
+        <p>Discover Inner peace and Harmony</p>
+      </h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero Section with Carousel -->
+    <section id="blurred-background">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assest/images/heroimage.webp.jpg" class="d-block w-100" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Welcome to Serenity</h1>
+                <p>Discover Inner Peace and Harmony</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/assest/images/image1 carasoul.webp.jpg" class="d-block w-100" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Embrace Tranquility</h1>
+                <p>Find Your Balance with Yoga</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/assest/images/image4 carasoul.webp.jpg" class="d-block w-100" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Mindful Meditation</h1>
+                <p>Achieve Inner Calm</p>
+              </div>
+            </div>
+          
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      
+    </section>
 
-    <main>
-        <section id="benefits">
-            <h2>Benefits of Meditation & Yoga</h2>
-            <p>Both meditation and yoga offer a variety of physical and mental benefits, including:</p>
-            <ul>
-                <li>Reduced stress and anxiety</li>
-                <li>Improved focus and concentration</li>
-                <li>Increased flexibility and strength</li>
-                <li>Enhanced emotional well-being</li>
-                <li>Better sleep quality</li>
-            </ul>
-        </section>
-
-        <section id="yoga-poses">
-            <h2>Basic Yoga Poses for Beginners</h2>
-            <p>These beginner-friendly poses can help you get started on your yoga journey:</p>
-            <ul>
-                <li><strong>Mountain Pose (Tadasana)</strong> - A foundational pose for posture and grounding.</li>
-                <li><strong>Downward Dog (Adho Mukha Svanasana)</strong> - Stretches and strengthens the body.</li>
-                <li><strong>Child's Pose (Balasana)</strong> - A resting pose for relaxation and stretching.</li>
-                <li><strong>Cat-Cow Pose (Marjaryasana-Bitilasana)</strong> - A sequence to stretch the spine.</li>
-                <li><strong>Warrior Pose (Virabhadrasana)</strong> - A standing pose that builds strength and stamina.
-                </li>
-            </ul>
-        </section>
-
-        <section id="meditation">
-            <h2>Basic Meditation Techniques</h2>
-            <p>Here are some simple meditation techniques to get started:</p>
-            <ul>
-                <li><strong>Focused Attention Meditation</strong> - Focus on a single object, sound, or sensation.</li>
-                <li><strong>Mindfulness Meditation</strong> - Focus on the present moment without judgment.</li>
-                <li><strong>Guided Meditation</strong> - Listen to a teacher or recording that leads you through a
-                    session.</li>
-                <li><strong>Mantra Meditation</strong> - Repeat a word or phrase to help focus the mind.</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>For more tips and tutorials, visit <a href="https://www.yogajournal.com">Yoga Journal</a>.</p>
-    </footer>
-
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/8669b8ad66.js" crossorigin="anonymous"></script>
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+3o5n5hb7ie1e5z0I5i5Vt+0I5i5V"
+      crossorigin="anonymous"></script>
 </body>
 
-</html>
+</div>
+</section>
+</main>
+< <footer>
+  <p>&copy; 2022 Serenity. All rights reserved.</p>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+  <!-- Font Awesome kit -->
+  <script src="https://kit.fontawesome.com/8669b8ad66.js" crossorigin="anonymous"></script>
+  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+  <script>
+</body >
+
+</html >

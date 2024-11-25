@@ -1,89 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* General Styles */
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-
-/* CSS Variables */
-:root {
-    --primary-font: "raleway", sans-serif;
-    --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #aa9581; /* light brown */
 }
 
-/* General styles for the body */
 body {
-    font-family: var(--primary-font);
-    margin: 0;
-    padding: 0;
-    background-color: var(--highlight-color-light);
-    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'lora', sans-serif;
+    text-transform: capitalize ;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
 header {
-    background-color: #87CEEB;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: white;
+header a {
     text-decoration: none;
-    font-weight: bold;
+    color: inherit;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
 main {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
-section {
-    margin-bottom: 40px;
+/* Hero section */
+
+.blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    filter: blur(10px); /* Apply blur effect */
+    z-index: -1; /* Ensure it is behind the carousel */
 }
 
-section h2 {
-    color: #5D9F9F;
-    font-size: 1.8em;
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin: 8px 0;
-    font-size: 16px;
-}
-
-footer {
-    background-color: #87CEEB;
-    color: white;
+.carousel-caption {
+    position: absolute;
+    top: 50%;
     text-align: center;
-    padding: 10px 0;
 }
+    
+
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
 
 footer a {
     color: #fff;
