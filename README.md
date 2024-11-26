@@ -98,4 +98,17 @@ The forum should allow users to post questions, share experiences, and provide s
 **Task**
 contact links should work perfectly 
 fill the form with specified user data and give the back responce and thank you message so user can see that back repsonse and contact team member will contact soon 
+
+
+******Color:**
+i am using the random color still color palette not finalized 
+**fonts:**
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+**Wireframes**
+
+
+
+
+
                                                                                             
