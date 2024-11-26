@@ -107,6 +107,9 @@ i am using the random color still color palette not finalized
 
 **Wireframes**
 
+![hackathon project1(meditation   yoga)](https://github.com/user-attachments/assets/d816c5bf-6e77-4278-8afa-bbb365b3944d)
+
+
 
 
 
