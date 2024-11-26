@@ -46,8 +46,20 @@ Welcome to the Wellness Project: Welcome to SERENITY(Discover the Innner peace a
                                                                               Offer tools for users to track their progress in their wellness journey.
                                                                               Foster a community where users can share their experiences and support each other.
                                                                               Continuously update the content and features based on user feedback and emerging trends in wellness.
+**UX DESIGN:**
+**User Story:**
+As a user seeking inner peace and harmony, I want to access a website that provides information about the benefits of meditation and yoga, so that I can learn basic poses and techniques to get started.
+**Acceptance Criteria:**
+The website should have a welcoming home page with an introduction to the benefits of meditation and yoga.
+The home page should feature a carousel section with images and captions promoting tranquillity and mindfulness.
+Navigation should be easy with accessible links to "Home," "About," "Services," and "Sign Up" pages.
+The website should be responsive and viewable on both desktop and mobile devices.
+**Tasks**
+Homepage Design: Create and style the homepage with HTML and CSS.
+Carousel Section: Implement and style the carousel with images and captions.
+Navigation Menu: Develop a responsive navigation menu linking to "Home," "About," "Services," and "Sign Up" pages.
+Responsive Design: Ensure the website is responsive for both desktop and mobile device.                                                                                
 
-                                                                                **  Ux design:**
                                                                               
 
 
