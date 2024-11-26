@@ -33,7 +33,54 @@
                 <li><a href="index.html" aria-current="page" class="active">Home</a></li>
                 <li><a href="benefits.html" aria-current="page" class="active">Benefits</a></li>
                 <li><a href="services.html"aria-current="page" class="active">Services</a></li>
-                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="contact.html" aria-current="page"class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Main content -->
+    <!-- Footer / contact section -->
+<!-- mt-auto added to push footer to the bottom of the page -->
+<footer id="contact" class="mt-auto">
+    <div class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="display-6">Contact us!</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Contact Information</h3>
+                <p>Email: info@serenityhouse.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Serenity St, Peaceful City, PC 12345</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+<!-- Font Awesome kit -->
+<script src="https://kit.fontawesome.com/8669b8ad66.js" crossorigin="anonymous"></script>
+<!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+</script>
+</body>
+
+</html>
