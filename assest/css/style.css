@@ -16,32 +16,32 @@ body {
     color: #3a3a3a;
     font-family: 'Raleway', sans-serif;
 }
+
 header {
-    background-color: #fbf9f9;
-    padding: 0;
-    text-align: left;
-    font-size: 1rem ;
-    color: #3a3a3a;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 99;
     width: 100%;
+    box-shadow: rgb(58, 58, 58) 0px 2px 2px;
+    display: flex;
     justify-content: space-between;
-    font-family: "Raleway",sans-serif;
-    text-transform: capitalize;
-    align-items: center;
-    position: relative;
+    align-items: baseline;
+    padding: 0px 1rem;
 }
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+.hidden-heading {
+    display: none;
 }
-
-
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
@@ -50,16 +50,66 @@ nav {
     display: none;
     top: 100%;
 }
-/* Nav toggle */
-#nav-toggle:checked ~ nav {
-    display: inline-block;
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
+
 #nav-toggle {
     display: none;
 }
 
-
-label.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
+}
+
+
+/* Hero Section */
+#heroCarousel {
+    width: 100%;
+}
+
+.carousel-item {
+    height: 60vh; /* Default height */
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+/* Responsive design */
+
+/* Mobile devices (up to 600px) */
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 50vh; /* Adjust height for mobile devices */
+    }
+}
+
+/* Tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .carousel-item {
+        height: 55vh; /* Adjust height for tablets */
+    }
+}
+
+/* Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .carousel-item {
+        height: 60vh; /* Adjust height for laptops */
+    }
+}
+
+/* Wide screens (1025px and up) */
+@media (min-width: 1025px) {
+    .carousel-item {
+        height: 70vh; /* Adjust height for wide screens */
+    }
 }
