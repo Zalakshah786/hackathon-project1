@@ -1,51 +1,57 @@
 
 
-![main image for website webp](https://github.com/user-attachments/assets/dcbc207b-4fa3-4b6f-ae05-f92560c55c3e)
+                                        ![main image for website webp](https://github.com/user-attachments/assets/dcbc207b-4fa3-4b6f-ae05-f92560c55c3e)
 
-
-**********Introduction **********************
-Welcome to the Wellness Project: Welcome to SERENITY(Discover the Innner peace and harmony). This project is dedicated to promoting wellness through the practices of meditation and yoga. Our website provides a more details about why meditation and yoga need so necessory in busy life and  guides to help users incorporate these beneficial practices into their daily lives. Whether you are a beginner looking to start your journey or an experienced practitioner seeking to deepen your practice, our platform offers valuable content to support your wellness goals.
- **table of Content:
-     1)Title
-    2)Live Site link
-    3)Brief Introduction
-    4)Responsivity Example Image
-    5)Contents
-    6)UX (User Experience)
-    7)User Stories
-          Strategy
-          Scope
-          Structural
-          Skeleton (Wireframes)
-          Surface
-         Design
-        Typography
-        8)Colour Scheme
-          9)Imagery
-        10)Website Features
-           11)Tablet/Mobile View
-       12)Languages
-     13)Frameworks
-     14)Deployment
-      15)Step by step process for deploying to GitHub Pages**
-
-
-****Title of the Project ****
-     # Wellness Project: WELCOME TO SERENITY **
-     Discover Ineer peace and harmony **
-
-**Live site link**
+**Project Title and Description**
+ Welcome to Serenity (Discover Inner Peace and harmony)
+ **Live site link**
 https://github.com/Zalakshah786/hackathon-project1
 
- **KEY OBJECTIVE DETAILS OF THIS PROJECT**
+Welcome to the Wellness Project: Welcome to SERENITY(Discover the Innner peace and harmony) is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about safeguarding.This project is dedicated to promoting wellness through the practices of meditation and yoga. Our website provides a more details about why meditation and yoga need so necessory in busy life and  guides to help users incorporate these beneficial practices into their daily lives. Whether you are a beginner looking to start your journey or an experienced practitioner seeking to deepen your practice, our platform offers valuable content to support your wellness goals.
+live project link 
+
+**Table of Content**
+@ Welcome to Serenity Image 
+Introduction
+Table of Contents
+Project Outline
+Project Planning
+UX Design
+User Stories
+Colors
+Fonts
+Imagery
+Wireframes
+Features
+General Features
+Navigation and Hero Section
+Bootstrap Cards
+Policies Section
+Footer
+Links and Buttons
+Resnposive Design
+Built With
+Technology and Languages
+Libraries and Frameworks
+Tools & Programs
+Development
+Testing
+Credits
+Code
+Content Research
+Media
+Acknowledgements
+ 
+ **Project Outline KEY OBJECTIVE DETAILS OF THIS PROJECT**
 
    1) Promote wellness through the practices of meditation and yoga.
-   2) Provide easy-to-access resources and guides for users of all experience levels.
+   2) Provide easy-to-access resources and guides for users of all begginers and experience levels.
    3)Create an engaging and user-friendly interface to enhance the user experience.
    4)Ensure the website is fully responsive and accessible on various devices.
    5) Offer tools for users to track their progress in their wellness journey.
    6)Foster a community where users can share their experiences and support each other.
    7)Continuously update the content and features based on user feedback and emerging trends in wellness.
+
 **UX DESIGN:**
 **User Story:**
 As a user seeking inner peace and harmony, I want to access a website that provides information about the benefits of meditation and yoga, so that I can learn basic poses and techniques to get started.
@@ -101,9 +107,26 @@ fill the form with specified user data and give the back responce and thank you 
 
 
 ******Color:**
-i am using the random color still color palette not finalized 
+Color selection is a key component to any design process, however with the nature of the project this consideration is even greater due to the needs of the end user and the potential for negatively impacting their well-being.
+
+The artwork and color selection thus played a integral part in the design of this project as they were essential in creating a welcoming and appropriate page for the end user and their specific needs. After much research and inspiration, combining general color theory, as well as feedback, I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging.
+
+To ensure compliance to standards, the Colour Contrast Checker (also available as extension on Chrome Web Store)  and Imagecolorpicker was used.
+Both the WebAIM and the Adobe color contrast tools were used to corroborate these results.
+
+
+![colorpickerimage](https://github.com/user-attachments/assets/9940f687-fc3a-4c90-8139-81fd31fa8089)
+
 **fonts:**
+As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.
+Two sans-serif fonts were selected for the project, and implemented via Google Fonts using a direct import code within the style.css file.
+
+Fredoka serves as playful font to be used within logos, headings other page elements of significance.
+
+Prompt is to be used as the primary content font ensuring ease of readability and complementing the Fredoka font choice.
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+![google fonts](https://github.com/user-attachments/assets/38ec37fd-0f65-4ee3-80bc-137521cd091d)
 
 **Wireframes**
 
@@ -113,9 +136,73 @@ i am using the random color still color palette not finalized
 
 
 
+![tablet image for index page](https://github.com/user-attachments/assets/567d9b48-b875-429a-8a51-2d3805444219)
+
+
+
+
+![laptop wireframe for index page](https://github.com/user-attachments/assets/61725ccd-383b-4f37-b18c-504310159bb1)
+
+
+
+
+
+**Features**
+**General Features**
+In order to fulfil the criteria the page consists of various sectioned information each with a variety of links, resources and other elements that contribute to a positive user experience.
+Upon coding the project, receiving feedback and implementing the Bootstrap Framework the features and design shifted slightly from the original wireframe.
+
+
+**Navigation and Hero Section**
+I chose to use carosual hero section for the start of the page using the https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works
+This gives a clear indication of the content as well as imagery that links to the brand and identity of the Project.
+The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
+
+**Bootstrap Cards**
+I opted to utilise the Bootstrap Card feature for the main content of the page as this allowed for a clean Project outline
+Within these sections I have also opted to provide additional content.
+
+**Footer**
+For the footer again I implemented a Bootstrap component.
+Here I have used the Simple color to  distinguish it apart from the rest of the page allowing it to be easily identifiable across the whole website.
+The information provided in this section is considered somewhat standard and provides for a user experience that is easy to understand.
+
+**Responsive Design**
+Utilising the Bootstrap Framework allowed for an implementation that is responsive without the need for additional CSS or media queries.
+Though it took some experimentation and troubleshooting, I have been able to create a page that is fully responsive to modern standards.
+This has proven to be a very valuable learning experience in the use of frameworks. As a result of my debugging within Dev Tools in order to identify and resolve responsiveness issues I believe I have a much greater understanding of how to adpat Bootstrap for use within future projects.
+
+
+**Built With**
+Technologies and Languages
+HTML5 AND CSS3
+
+Libraries and Frameworks
+BOOTSTRAP5.3,FONTAWESOME,GOOGLEFONT
+
+Tools and Programs
+BALSAMIQ FOR WIREFRAMES,PEXEL AND CANVA FOR IMAGES
+
+Deployment
+This GitHub project was created using the Code Institute Template ensuring all necessary dependencies were included when opening within the designated workspace on the Gitopod IDE.
+Setup a repo using this method and template:
+
+Login to your GitHub profile.
+Navigate to the Code Institute Full Template
+Click the dropdown for 'Use this template' and select "Create a new repository"
+Generate the necessary name and description for your repo and click 'Create repository from template'
+Navigate to the new repo and click the green 'Open' button with the Gitpod logo
+You can now work on your repository within the Code Institute Gitpod IDE workspace
+Once the project repo is created, an early deployment for the live project should performed.
+This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
+Additional information on the deployment process can be found on the official GitHub Docs
+
+**Testing**
+Testing and validation os the website was carried out throughout the course of the project.
+This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
+
+**HTML Validation**
+**CSS Validation**
 **css validator **
 ![Screenshot 2024-11-26 172541](https://github.com/user-attachments/assets/d21b7fb7-d4c0-498a-a31d-428202498a18)
-
-
-
                                                                                             
