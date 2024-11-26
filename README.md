@@ -27,3 +27,32 @@ Welcome to the Wellness Project: Welcome to SERENITY(Discover the Innner peace a
                                                                                             13)Frameworks
                                                                                             14)Deployment
                                                                                             15)Step by step process for deploying to GitHub Pages**
+
+
+                                                 ********************** Title of the Project ************************************** 
+                                                                                   ** # Wellness Project: WELCOME TO SERENITY **
+                                                                                  ** Discover Ineer peace and harmony **
+
+
+                                                     **************************** Live site link ******************************
+                                                                       github.com/Zalakshah786/hackathon-project1.git
+
+                                              **************************888 KEY OBJECTIVE DETAILS OF THIS PROJECT :***************************************
+
+                                                                              Promote wellness through the practices of meditation and yoga.
+                                                                              Provide easy-to-access resources and guides for users of all experience levels.
+                                                                              Create an engaging and user-friendly interface to enhance the user experience.
+                                                                              Ensure the website is fully responsive and accessible on various devices.
+                                                                              Offer tools for users to track their progress in their wellness journey.
+                                                                              Foster a community where users can share their experiences and support each other.
+                                                                              Continuously update the content and features based on user feedback and emerging trends in wellness.
+
+                                                                                **  Ux design:**
+                                                                              
+
+
+                                                                              
+                                                                                  
+
+
+                                                                                            
