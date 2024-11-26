@@ -89,27 +89,27 @@ nav {
 /* Mobile devices (up to 600px) */
 @media (max-width: 600px) {
     .carousel-item {
-        height: 50vh; /* Adjust height for mobile devices */
+        height: 60vh; /* Adjust height for mobile devices */
     }
 }
 
 /* Tablets (601px to 768px) */
 @media (min-width: 601px) and (max-width: 768px) {
     .carousel-item {
-        height: 55vh; /* Adjust height for tablets */
+        height: 75vh; /* Adjust height for tablets */
     }
 }
 
 /* Laptops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     .carousel-item {
-        height: 60vh; /* Adjust height for laptops */
+        height: 100vh; /* Adjust height for laptops */
     }
 }
 
 /* Wide screens (1025px and up) */
 @media (min-width: 1025px) {
     .carousel-item {
-        height: 70vh; /* Adjust height for wide screens */
+        height: 150vh; /* Adjust height for wide screens */
     }
 }
