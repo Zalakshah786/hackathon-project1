@@ -113,5 +113,9 @@ i am using the random color still color palette not finalized
 
 
 
+**css validator **
+![Screenshot 2024-11-26 172541](https://github.com/user-attachments/assets/d21b7fb7-d4c0-498a-a31d-428202498a18)
+
+
 
                                                                                             
