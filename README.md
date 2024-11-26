@@ -58,13 +58,44 @@ The website should be responsive and viewable on both desktop and mobile devices
 Homepage Design: Create and style the homepage with HTML and CSS.
 Carousel Section: Implement and style the carousel with images and captions.
 Navigation Menu: Develop a responsive navigation menu linking to "Home," "About," "Services," and "Sign Up" pages.
-Responsive Design: Ensure the website is responsive for both desktop and mobile device.                                                                                
+Responsive Design: Ensure the website is responsive for both desktop and mobile device. 
 
+
+**User stories:**
+Content Updates
+**Acceptance Criteria:**
+The About page should include relevant and updated information about the project.
+About Pages shows that who is ,which are factor you should do it in your busy life that so user can come to see and do the medication and Yoga
+Adding more Yoga Posture that help to our site makes effective
+Adding Services Pages as well
+Adding Contact pages
+**Tasks:**
+Adding the About page Content
+Adding Images for Yoga Posture on About pages and medication how it help in our lives
+Adding contact details and adding form page so they can check the response once they done
+
+**User stories:**
+Meditation Guides
+As a user, I want to access detailed meditation guides so that I can learn and practice meditation techniques effectively.
+As a user, I want to view different meditation techniques categorized by difficulty level so that I can choose the one that suits my experience level.
+
+**Acceptance Criteria:**
+As a user, I want to access step-by-step tutorials for various yoga poses so that I can perform them correctly and safely.
+As a user, I want to watch video demonstrations of yoga poses so that I can better understand the proper form and alignment.
                                                                               
+Task:
+Adding step by step tutorial for various yoga posture on services page.
+**User stories:**
+Interactive elements
+As an engaged user, I want interactive elements such as forms and buttons to provide immediate feedback, so that I know my interactions are being registered.
+As a user, I want to participate in live meditation and yoga sessions so that I can connect with others and enhance my practice.
+**Acceptance Criteria:**
 
-
-                                                                              
-                                                                                  
-
-
+Users should be able to join a contact forum from the "Contact" section.
+Users should be able to get the back response that user can see that form already submitted and team leader will be in contact soon.and thank you message for those who submit form.
+**future  Critetia**
+The forum should allow users to post questions, share experiences, and provide support to others, yoga sessions via integrated video conferencing tools.
+**Task**
+contact links should work perfectly 
+fill the form with specified user data and give the back responce and thank you message so user can see that back repsonse and contact team member will contact soon 
                                                                                             
