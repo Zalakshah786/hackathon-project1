@@ -10,36 +10,33 @@ Welcome to the Wellness Project: Welcome to SERENITY(Discover the Innner peace a
 live project link 
 
 **Table of Content**
-@ Welcome to Serenity Image 
-Introduction
-Table of Contents
-Project Outline
-Project Planning
-UX Design
-User Stories
-Colors
-Fonts
-Imagery
-Wireframes
-Features
-General Features
-Navigation and Hero Section
-Bootstrap Cards
-Policies Section
-Footer
-Links and Buttons
-Resnposive Design
-Built With
-Technology and Languages
-Libraries and Frameworks
-Tools & Programs
-Development
-Testing
-Credits
-Code
-Content Research
-Media
-Acknowledgements
+1)Welcome to Serenity Image 
+2)Introduction
+3)Table of Contents
+4)Project Outline
+5)Project Planning
+6)UX Design
+7)User Stories
+8)Colors
+9)Fonts
+10)Wireframes
+11)Features
+12)General Features
+13)Navigation and Hero Section
+14)Bootstrap Cards
+15)Footer
+16)Links and Buttons
+17)Resnposive Design
+18)Built With
+19)Technology and Languages
+20)Libraries and Frameworks
+22)Tools & Programs
+23)Development
+24)Testing
+25)Credits
+26)Code
+27)Media
+28)Acknowledgements
  
  **Project Outline KEY OBJECTIVE DETAILS OF THIS PROJECT**
 
@@ -181,17 +178,17 @@ This has proven to be a very valuable learning experience in the use of framewor
 Technologies and Languages
 HTML5 AND CSS3
 
-Libraries and Frameworks
+**Libraries and Frameworks**
 BOOTSTRAP5.3,FONTAWESOME,GOOGLEFONT
 
-Tools and Programs
+**Tools and Programs**
 BALSAMIQ FOR WIREFRAMES,PEXEL AND CANVA FOR IMAGES
 
-Deployment
+**Deployment**
 This GitHub project was created using the Code Institute Template ensuring all necessary dependencies were included when opening within the designated workspace on the Gitopod IDE.
 Setup a repo using this method and template:
 
-Login to your GitHub profile.
+**Login to your GitHub profile.**
 Navigate to the Code Institute Full Template
 Click the dropdown for 'Use this template' and select "Create a new repository"
 Generate the necessary name and description for your repo and click 'Create repository from template'
@@ -228,18 +225,17 @@ This included regular debugging and testing using the Dev Tools as ptovided with
 **css validator **
 ![Screenshot 2024-11-26 172541](https://github.com/user-attachments/assets/d21b7fb7-d4c0-498a-a31d-428202498a18)
 
-
-** Code**
+**code**
 Project and primary learning supplied by Code Institute
 Supplemental learning resources directly used / referenced within the project:
 Bootstrap Docs
 Bootstrap 5 Crash Course Tutorial #9 - Navbars - YouTube
-CSS Variables 
+**CSS Variables**
 Gemini,chatgpt as a learning tool, some of code was directly used
 Make cards same height side-by-side in Bootstrap 5 - YouTube
 google chrome -  web docs 
 
-Acknowledgements:
+**Acknowledgements:**
 copilot,code institute LMS ,goole chrome those are my helper to finish this project .not totally finished but this is my first project and i will update in future.
 
 **Zalak Shah**
