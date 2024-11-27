@@ -149,12 +149,16 @@ footer form {
     margin-bottom: 2rem;
 }
 
+.card-img-top {
+    width: 50%;
+    height: auto;
+}
 /* Responsive design */
 
 /* Mobile devices (up to 600px) */
 @media (max-width: 600px) {
     .carousel-item {
-        height: 60vh;
+        height: 50vh;
         /* Adjust height for mobile devices */
     }
 
