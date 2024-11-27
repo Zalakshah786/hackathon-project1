@@ -205,4 +205,20 @@ This included regular debugging and testing using the Dev Tools as ptovided with
 **CSS Validation**
 **css validator **
 ![Screenshot 2024-11-26 172541](https://github.com/user-attachments/assets/d21b7fb7-d4c0-498a-a31d-428202498a18)
-                                                                                            
+
+
+** Code**
+Project and primary learning supplied by Code Institute
+Supplemental learning resources directly used / referenced within the project:
+Bootstrap Docs
+Bootstrap 5 Crash Course Tutorial #9 - Navbars - YouTube
+CSS Variables 
+Gemini,chatgpt as a learning tool, some of code was directly used
+Make cards same height side-by-side in Bootstrap 5 - YouTube
+google chrome -  web docs 
+
+Acknowledgements:
+copilot,code institute LMS ,goole chrome those are my helper to finish this project .not totally finished but this is my first project and i will update in future.
+
+**Zalak Shah**
+
