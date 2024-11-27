@@ -1,6 +1,5 @@
-
-
-                                        ![main image for website webp](https://github.com/user-attachments/assets/dcbc207b-4fa3-4b6f-ae05-f92560c55c3e)
+ ![forntpage-for-project png](https://github.com/user-attachments/assets/7014e0a5-6114-4e5f-a80f-b4937201507c)
+      
 
 **Project Title and Description**
  Welcome to Serenity (Discover Inner Peace and harmony)
