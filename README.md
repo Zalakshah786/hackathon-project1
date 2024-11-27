@@ -202,6 +202,9 @@ Testing and validation os the website was carried out throughout the course of t
 This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
 
 **HTML Validation**
+
+![html validator](https://github.com/user-attachments/assets/7e9c4fc0-fe2f-406f-88f4-f6222bcefc63)
+
 **CSS Validation**
 **css validator **
 ![Screenshot 2024-11-26 172541](https://github.com/user-attachments/assets/d21b7fb7-d4c0-498a-a31d-428202498a18)
