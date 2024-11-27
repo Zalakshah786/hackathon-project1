@@ -203,6 +203,11 @@ This included regular debugging and testing using the Dev Tools as ptovided with
 
 **HTML Validation**
 
+
+
+![index validator done](https://github.com/user-attachments/assets/80512e1e-3065-410b-b468-862b9c3ae422)
+
+
 ![html validator](https://github.com/user-attachments/assets/7e9c4fc0-fe2f-406f-88f4-f6222bcefc63)
 
 **CSS Validation**
