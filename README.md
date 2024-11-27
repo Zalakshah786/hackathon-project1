@@ -215,6 +215,9 @@ This included regular debugging and testing using the Dev Tools as ptovided with
 
 
 
+![services page validator](https://github.com/user-attachments/assets/5fc36cb6-0391-46a0-a3e2-cf2379609f6c)
+
+
 ![html validator](https://github.com/user-attachments/assets/7e9c4fc0-fe2f-406f-88f4-f6222bcefc63)
 
 **CSS Validation**
