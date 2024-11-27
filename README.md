@@ -171,6 +171,7 @@ The information provided in this section is considered somewhat standard and pro
 Utilising the Bootstrap Framework allowed for an implementation that is responsive without the need for additional CSS or media queries.
 Though it took some experimentation and troubleshooting, I have been able to create a page that is fully responsive to modern standards.
 This has proven to be a very valuable learning experience in the use of frameworks. As a result of my debugging within Dev Tools in order to identify and resolve responsiveness issues I believe I have a much greater understanding of how to adpat Bootstrap for use within future projects.
+![responsive-finalpageimage](https://github.com/user-attachments/assets/4a1f9ab4-1e53-4135-891e-757c79611063)
 
 ![lighthouse tasting for all pages for desktop](https://github.com/user-attachments/assets/5d481f68-96d6-4132-ab8e-6aaaca3d36c3)
 
